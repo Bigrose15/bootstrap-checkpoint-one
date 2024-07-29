@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chop Life Restaurant</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+  </head>
+  <body style="font-family: segoe UI">
+    <!-- Header Section -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: rgb(10, 9, 10); justify-content: space-around"
+    >
+      <a
+        class="navbar-brand"
+        href="#"
+        style="color: rgb(181, 140, 67); font-family: 'Segoe UI'"
+        >Chop Life Restuarant</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#" style="color: rgb(181, 140, 67)"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgb(181, 140, 67)"
+              >Menu</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgb(181, 140, 67)"
+              >About Us</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: rgb(181, 140, 67)"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div
+      class="jumbotron jumbotron-fluid"
+      style="background-image: url('./images/hero-image.jpg'); height: 500px"
+    >
+      <div class="container">
+        <h1
+          class="display-4"
+          style="
+            font-family: 'Segoe UI';
+            font-size: 48px;
+            font-weight: 700;
+            color: white;
+          "
+        >
+          Welcome to Chop Life Restaurant
+        </h1>
+
+        <p class="lead" style="color: white">
+          Experience the authentic taste of Nigeria Meal.
+        </p>
+        <button class="btn btn-primary">Learn More</button>
+      </div>
+    </div>
+
+    <!-- Menu Section -->
+    <div class="container" style="margin-top: 100px">
+      <div class="row">
+        <div class="col-md-4">
+          <img
+            src="./images/spicy-naija-jollof.jpg"
+            alt="Menu Item 1"
+            class="img-fluid"
+          />
+          <h3>Spicy Naija jollof</h3>
+          <h5>Price: $3.99</h5>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="./images/eba and egusi.jpg"
+            alt="Menu Item 2"
+            class="img-fluid"
+          />
+          <h3>Fill Up (eba)</h3>
+          <h5>Price: $4.99</h5>
+        </div>
+        <div class="col-md-4">
+          <img
+            src="./images/Chicken-Pepper-Soup.jpg"
+            alt="Menu Item 3"
+            class="img-fluid"
+          />
+          <h2>Chiken Pepper Soup</h2>
+          <h5>Price: $6.99</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Us Section -->
+    <div class="container" style="margin-top: 100px">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>About Us</h4>
+          <br />
+          <img src="./images/hero-image.jpg" alt="About Us" class="img-fluid" />
+        </div>
+        <div class="col-md-6" style="font-family: 'Segoe UI'; font-size: 18px">
+          <p>
+            Chop Life Restaurant, where Africa's vibrant flavors come alive! Our
+            chefs craft traditional Nigerian dishes with a modern twist, using
+            fresh ingredients and love. From Spicy Naija Jollof to tender Eba
+            and Egusi, every bite is a delight. We're not just serving food,
+            we're sharing our culture and passion for life.
+            <br /><br />
+            Join us on this culinary journey and taste Africa's warmth and
+            hospitality. Let's chop life together and make unforgettable
+            memories around the table! Experience the bold flavors and warm
+            welcome that make Chop Life Restaurant your new favorite
+            destination.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="container" style="margin-top: 50px; margin-bottom: 100px">
+      <div class="row">
+        <div class="col-md-6">
+          <h4>Get in Touch</h4>
+          <br />
+          <form>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea class="form-control" id="message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer" style="background-color: rgb(10, 9, 10)">
+      <div>
+        <div class="container img-fluid mt-4 fs-5">
+          <div class="row">
+            <div class="col-md-6">
+              <a href="my twitter link" target="blank" class="me-2">
+                <i class="bi bi-twitter" style="color: rgb(181, 140, 67)"></i>
+              </a>
+              <a href="my whatsapp link" target="blank" class="me-2">
+                <i class="bi bi-whatsapp" style="color: rgb(181, 140, 67)"></i>
+              </a>
+              <a href="my pinterest" target="blank" class="me-2">
+                <i class="bi bi-pinterest" style="color: rgb(181, 140, 67)"></i>
+              </a>
+              <a href="my facebook link" target="blank" class="me-2">
+                <i class="bi bi-facebook" style="color: rgb(181, 140, 67)"></i>
+              </a>
+              <a href="my linkedin" target="blank" class="me-2">
+                <i class="bi bi-linkedin" style="color: rgb(181, 140, 67)"></i>
+              </a>
+            </div>
+            <div class="col-md-6 text-end" style="color: rgb(181, 140, 67)">
+              <p>&copy; 2024 Chop Life Restaurant. All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
